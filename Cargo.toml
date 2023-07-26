@@ -1,0 +1,32 @@
+[package]
+name = "leetcode"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[[test]]
+name = "two_sum"
+path = "src/two_sum.rs"
+
+[[test]]
+name = "roman_to_int"
+path = "src/roman_to_int.rs"
+
+[[test]]
+name = "is_palindrome"
+path = "src/is_palindrome.rs"
+
+[[test]]
+name = "valid_paretheses"
+path = "src/valid_paretheses.rs"
+
+[[test]]
+name = "merge_two_lists"
+path = "src/merge_two_lists.rs"
+
+[[test]]
+name = "word_grouping"
+path = "src/word_grouping.rs"
+
+[dependencies]
